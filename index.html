@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<title>Document</title>
+</head>
+<body>
+
+	<section id="Acceuil" class="section-header">
+	 <header>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="assets/logo22.png">
+			</div>
+			   <div class="nav-links">
+				  <ul >
+						<li><a  href="#Home">Acceuil</a></li>
+						<li><a  href="#commande">Commander une course</a></li>
+						<li><a  href="#nous-choisir">Pourquoi nous?</a></li>
+						<li><a  href="#service">Nos services</a></li>
+						<li><a  href="#temoignage">Temoignages</a></li>
+						<li><a  href="#Contactez-nous">Nous contactez</a></li>
+						<li><a  href="pageconnexion.html">Se connecter</a></li>
+				  </ul>
+			   </div>
+		    </div>
+		</nav>
+	 </header>
+	</section>
+	<section  id="Home" class="home-section">
+		<div>
+			<img src="assets/imgbackground.jpg" alt="">
+		 
+		<div class="course" >
+		   <h1>Vos Courses livrées à domicile</h1>
+		   <form class="votre-adresse" >
+			  <div >
+				<label>Entrez votre adresse pour un service plus rapide et de qualité.</label>
+
+				<div class="se-connecter">
+					<div class="form-input">
+						<input type="text">
+					</div>
+					<div class="form-btn">
+						<input type="submit" value="Commander">
+					</div>
+				</div>
+			  </div>
+		    </form> 
+		</div>
+	</div>
+
+	</section>
+	<section id="commande">
+
+
+		<h1>Quel service souhaitez vous <br> utiliser</h1> 
+		<div class="btn">
+			<div class="btn-left">
+				<button onclick="window.location.href='course.html'"  class="valider" type="submit" value="valider"> Course</button>
+			</div>
+			<div class="btn-right">
+				<button class="valider" type="submit" value="valider">Commande</button>
+			</div>
+			
+			
+		</div> <br>
+		<form action="#" method="post">
+			<div>
+			  <label for="nom"> Nom et Prenom </label>
+			  <input type="text" id="nom" placeholder="La petite coursière" required>
+			</div>
+			<div>
+			  <label for="number"> numero CNI</label>
+			  <input type="phone-number" id="number" placeholder="1234567890" required>
+			</div>
+			<div>
+				<label for="number">Numero de téléphone</label>
+				<input type="phone-number" id="number" placeholder="123456789" required>
+			</div>
+			<div>
+				<label for="adresse">Adresse de réception </label>
+				<input type="text" id="adresse" placeholder="Touristiques Mvan" required>
+			</div>
+			<div>
+				<label for="adresse">Adresse de destination </label>
+				<input type="text" id="adresse" placeholder="Carrefour bastos" required>
+			  </div>
+			<div>
+			    <label for="delivery-input">Date, heure et lieu de livraison</label>
+                <input type="datetime-local" id="delivery-input" name="delivery-input">
+			</div>
+			<div>
+				<label for="numero">Contact secondaire</label>
+				<input type="text" id="number" placeholder="123456789102" required>
+			</div>
+		</form>
+	
+		  
+
+
+	</section>
+
+
+	<section id="nous-choisir" class="why-choose">
+
+		<div class="container">
+            <h1>Pourquoi nous choisir ?</h1>
+			<div class="row">
+			<div class="col-6">
+				<div class="card">  
+					<div class="card-body c-one">
+						<p class="num">1</p>
+						<h3>Privilegiez la relation cliente</h3>
+					</div>
+				</div>
+				<div class="s-title">
+					<p class="num-title">1</p>
+					<h3 class="sub-title">Nous previlegions la 
+					   relation cliente</h3>
+				</div>
+				    
+		    </div>
+			<div class="col-6">
+				<div class="card">  
+					<div class="card-body c-two">
+						<p class="num">1</p>
+						<p class="parag">  Le lorem ipsum est, en imprimerie,
+							une suite de mots sans signification utilisée à titre
+							provisoire pour calibrer une mise en page, </p>
+					</div>
+					<div class="s-title">
+						<p class="num-title">1</p>
+						<h3 class="sub-title">Nous faisons attentions 
+							aux besoins de nos 
+							client</h3>
+					</div>
+				</div>
+		    </div>
+		    <div class="col-6">
+				<div class="card">  
+					<div class="card-body c-tree">
+						<p class="num">1</p>
+						<h3 class="title">Nous sommes disponible 
+							7jr/7 de 6hr à 21h</h3>
+					</div>
+					<div>
+						<div class="s-title">
+							<p class="num-title">1</p>
+							<h3 class="sub-title">Nous sommes disponible 
+								7jr/7 de 6hr à 21h</h3>
+						</div>
+						
+
+					</div>
+                </div>
+		    </div>
+			<div class="col-6">
+				<div class="card card-p">  
+					<div class="card-body c-for">
+						<p class="num2">1</p>
+						<p class="parag">Nos effectuons nos 
+							courses dans les plus 
+							bref delai Nos effectuons nos 
+							courses dans les plus 
+							bref delai</p>
+					</div>
+					<div class="s-title">
+							<p class="num-title">1</p>
+						    <h3 class="sub-title">Nos effectuons nos 
+								courses dans les plus 
+								bref delai Nos effectuons nos 
+								courses dans les plus 
+								bref delai
+						    </h3>
+					</div>
+				</div>
+		    </div>
+			<div class="col-6">
+				<div class="card card-p">  
+					<div class="card-body c-five">
+						<p class="num2">1</p>
+						<p class="parag">Le paiement des frais de 
+							commissions de sont 
+							lors de la vérification des 
+							courses par le client.<p>
+					</div>
+					<div class="s-title">
+						<p class="num-title">1</p>
+						<h3 class="sub-title">paiement des frais de 
+							commissions de sont 
+							lors de la vérification des 
+							courses par le client
+						</h3>
+					</div>
+				</div>
+		    </div>
+			</div>
+        </div>
+	
+	</section>
+	
+	<section id="service">
+	           
+	   <div class="container">
+		   <h1>Nos services</h1>
+		   <div class="card">
+			   <div class="card-image">
+				  <img src="assets/frui.PNG" alt="Denim Jeans">
+			   </div>
+			   <div class="card-body">
+				<h3>Course</h3>
+					<p>Amet minim mÙllit nÙn deserunt ullamcÙ est sit 
+					aliqua dÙlÙr dÙ amet sint. Velit Ùfficia cÙnsequat duis enim 
+					Âelit mÙllit. ExercitatiÙn Âeniam 
+					cÙnsequat sunt nÙstrud amet. Amet minim mÙllit nÙn deserunt ullamcÙ est sit .
+				</p>
+			   </div>
+			  
+			 </div> 
+			 <div class="card">
+				<div class="card-image">
+			       <img src="assets/cadeau.PNG" alt="Denim Jeans" style="width:100%">
+			    </div>
+				<div class="card-body">
+					<h3>Envoi et réception des colis</h3>
+					<p>Amet minim mÙllit nÙn deserunt ullamcÙ est sit 
+						aliqua dÙlÙr dÙ amet sint. Velit Ùfficia cÙnsequat duis enim 
+						Âelit mÙllit. ExercitatiÙn Âeniam cÙnsequat sunt nÙstrud amet. 
+						Amet minim mÙllit nÙn deserunt ullamcÙ est sit</p>
+			    </div> 
+			 </div> 
+			 <div class="card">
+				<video controls>
+				  <source src="assets/video.mov" type="video/mp4">
+				  <p>Votre navigateur ne prend pas en charge la lecture de vidéos HTML5.</p>
+				</video>
+			  </div>  
+		  </div>
+		</section>
+	
+	<section id="temoignage">
+  
+        <div class="card-content">
+    
+            <div class="cards">  
+                <div class="card1">
+                    
+                    <div class="contenu">
+                        <div class="image-profile">
+                            <div class="image">
+                                <img src="assets/cadeau.PNG" alt="">
+                            </div>
+                           
+                            <h5>Giselle</h5>
+                        </div>
+                        <p>
+                            Le lorem ipsum est, en imprimerie,
+                            une suite de mots sans signification utilisée à titre
+                            provisoire pour calibrer une mise en page, le texte définitif
+                            venant remplacer le faux-texte dès qu'il est prêt ou que 
+                            la mise en page est achevée. Généralement, on utilise un texte
+                            en faux latin, le Lorem ipsum ou Lipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="card1">
+                    
+                    <div class="contenu">
+                        <div class="image-profile">
+                            <div class="image">
+                                <img src="assets/frui.PNG" alt="">
+                            </div>
+                           
+                            <h5>Tonton patrick</h5>
+                        </div>
+                        <p>
+                            Le lorem ipsum est, en imprimerie,
+                            une suite de mots sans signification utilisée à titre
+                            provisoire pour calibrer une mise en page, le texte définitif
+                            venant remplacer le faux-texte dès qu'il est prêt ou que 
+                            la mise en page est achevée. Généralement, on utilise un texte
+                            en faux latin, le Lorem ipsum ou Lipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="card1">
+                    
+                    <div class="contenu">
+                        <div class="image-profile">
+                            <div class="image">
+                                <img src="assets/logo22.png" alt="">
+                            </div>
+                           
+                            <h5>Lisa</h5>
+                        </div>
+                        <p>
+                            Le lorem ipsum est, en imprimerie,
+                            une suite de mots sans signification utilisée à titre
+                            provisoire pour calibrer une mise en page, le texte définitif
+                            venant remplacer le faux-texte dès qu'il est prêt ou que 
+                            la mise en page est achevée. Généralement, on utilise un texte
+                            en faux latin, le Lorem ipsum ou Lipsum.
+                        </p>
+                    </div>
+                </div>
+              
+       </div>
+
+
+
+	</section>
+
+
+	<section id="Contactez-nous">
+  
+       <div>
+          <h1>Contactez nous</h1> <br>
+	      <form action="">
+			<div class="container">
+				<div>
+					<label for="adresse">Nom et Prenom </label>
+					<input type="text" placeholder="Nom et Prenom" required> <br>
+				</div>
+				<div>
+					<label for="email">Adresse Email </label>
+					<input type="email" placeholder="votre adresse email" required> <br>
+				</div>
+				<div>
+					<label for="adresse">Numero de téléphone </label>
+					<input type="phone-number" placeholder="Numero de téléphone" required> <br>
+				</div>
+				<div>
+					<label for="text">Message</label>
+					<textarea type="text" placeholder="message" required> </textarea>
+				</div>
+				<button class="valider" type="submit" value="valider">valider</button>	
+			</div>
+
+		  </form>	 
+		 
+	   </div>
+
+
+	</section>
+
+
+	<footer>
+		<div class="footer">
+		 <div class="logo">
+			<img src="assets/logo22.png">
+		 </div>
+		  <div class="col">
+			<ul>
+			  <li>Passer une commancde </li>
+			  <li>Pourquoi nous choisir</li>
+			  <li>Nos services</li>
+			  <li>Temoignages</li>
+			  <li>Tout droits réservés</li>
+			</ul>
+		  </div>
+		  <div class="col">
+			<ul>
+			  <li>Numéro de téléphone</li>
+			  <li>+237 652319556</li>
+			  <li>Site web</li>
+			  <li>Site web</li>
+			  <li>Site web</li>
+			  <li>Copyright@2023</li>
+			</ul>
+		  </div>
+		  <div class="col">
+			<ul>
+			  <li>Facebook</li>
+			  <li>La Petite Coursière</li>
+			  <li>Instagram</li>
+			  <li>lpccmr</li>
+			</ul>
+		  </div>
+		 <div class="clearfix"></div>
+		
+		</div>
+	</footer>
+
+</body>
+
+</html>

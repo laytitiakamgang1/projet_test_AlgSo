@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: gray;
+    padding: 20px;
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border: #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    color:rgba(59, 27, 97, 1);
+    font-size: 4em;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid,;
+    border-color: rgba(59, 27, 97, 1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  ::placeholder{
+      color: rgba(59, 27, 97, 1);
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  button{
+    border-radius: 5px;
+      color : rgba(59, 27, 97, 1);
+  }
+.connecter-vous{
+    background-color: aliceblue;
+    /*padding: 20px;*/
+    height: 600px;
+    width: 50%;
+    border: none;
+    margin: auto;
+}
+.validation{
+          
+    width: 36%;
+    padding: 12px;
+    border: 1px solid,;
+    border-color: rgba(59, 27, 97, 1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    }
+  .valida{
+    text-align: center;
+    margin-top: 50px;
+  }
